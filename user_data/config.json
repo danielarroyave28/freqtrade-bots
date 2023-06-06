@@ -1,0 +1,116 @@
+
+{
+    "max_open_trades": 5,
+    "stake_currency": "USDT",
+    "stake_amount": "unlimited",
+    "tradable_balance_ratio": 0.99,
+    "fiat_display_currency": "USD",
+    "dry_run": true,
+    "dry_run_wallet": 10000,
+    "cancel_open_orders_on_exit": false,
+    "trading_mode": "spot",
+    "margin_mode": "",
+    "unfilledtimeout": {
+        "entry": 10,
+        "exit": 10,
+        "exit_timeout_count": 0,
+        "unit": "minutes"
+    },
+    "entry_pricing": {
+        "price_side": "same",
+        "use_order_book": true,
+        "order_book_top": 1,
+        "price_last_balance": 0.0,
+        "check_depth_of_market": {
+            "enabled": false,
+            "bids_to_ask_delta": 1
+        }
+    },
+    "exit_pricing":{
+        "price_side": "same",
+        "use_order_book": true,
+        "order_book_top": 1
+    },
+    "exchange": {
+        "name": "binance",
+        "key": "",
+        "secret": "",
+        "ccxt_config": {},
+        "ccxt_async_config": {},
+        "pair_whitelist": [
+
+            "BTC/USDT",
+            "ETH/USDT",
+            "BNB/USDT",
+            "XRP/USDT",
+            "ADA/USDT",
+            "DOGE/USDT",
+            "MATIC/USDT",
+            "SOL/USDT",
+            "TRX/USDT",
+            "DOT/USDT",
+            "LTC/USDT",
+            "SHIB/USDT",
+            "AVAX/USDT",
+            "LINK/USDT",
+            "ATOM/USDT",
+            "UNI/USDT",
+            "XMR/USDT",
+            "XLM/USDT",
+            "ICP/USDT",
+            "FIL/USDT",
+            "HBAR/USDT",
+            "NEAR/USDT",
+            "LDO/USDT",
+            "ARB/USDT",
+            "VET/USDT",
+            "ALGO/USDT",
+            "QNT/USDT",
+            "APE/USDT",
+            "RNDR/USDT",
+            "GRT/USDT",
+            "SAND/USDT",
+            "FTM/USDT",
+            "EOS/USDT",
+            "AAVE/USDT",
+            "EGLD/USDT",
+            "CFX/USDT",
+            "MANA/USDT",
+            "THETA/USDT",
+            "RPL/USDT"
+
+        ],
+        "pair_blacklist": [
+           
+        ]
+    },
+    "pairlists": [
+        {
+            "method": "StaticPairList"
+            
+        }
+    ],
+    "telegram": {
+        "enabled": true,
+        "token": "",
+        "chat_id": ""
+    },
+    "api_server": {
+        "enabled": false,
+        "listen_ip_address": "127.0.0.1",
+        "listen_port": 8080,
+        "verbosity": "error",
+        "enable_openapi": false,
+        "jwt_secret_key": "a6aadf27d99fb8f322a82ac2ca9ad55a3f112ac7296e058fd074ff87c4fe39f5",
+        "ws_token": "I9dESl7h_VqLkE8GMqd_-4UIVI4Wy-x7ow",
+        "CORS_origins": [],
+        "username": "",
+        "password": ""
+    },
+    "bot_name": "freqtrade",
+    "initial_state": "running",
+    "force_entry_enable": false,
+    "internals": {
+        "process_throttle_secs": 5
+    }
+}

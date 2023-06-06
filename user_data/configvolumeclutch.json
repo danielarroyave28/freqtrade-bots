@@ -1,0 +1,92 @@
+
+{
+    "max_open_trades": 5,
+    "stake_currency": "USDT",
+    "stake_amount": "unlimited",
+    "available_capital": 5000,
+    "tradable_balance_ratio": 0.99,
+    "fiat_display_currency": "USD",
+    "dry_run": true,
+    "dry_run_wallet": 15000,
+    "cancel_open_orders_on_exit": false,
+    "trading_mode": "spot",
+    "margin_mode": "",
+    "unfilledtimeout": {
+        "entry": 10,
+        "exit": 10,
+        "exit_timeout_count": 0,
+        "unit": "minutes"
+    },
+    "entry_pricing": {
+        "price_side": "same",
+        "use_order_book": true,
+        "order_book_top": 1,
+        "price_last_balance": 0.0,
+        "check_depth_of_market": {
+            "enabled": false,
+            "bids_to_ask_delta": 1
+        }
+    },
+    "exit_pricing":{
+        "price_side": "same",
+        "use_order_book": true,
+        "order_book_top": 1
+    },
+    "exchange": {
+        "name": "binance",
+        "key": "",
+        "secret": "",
+        "ccxt_config": {},
+        "ccxt_async_config": {},
+        "pair_whitelist": [
+
+        ],
+
+        "pair_blacklist": [
+
+            "USDC/USDT",
+            "BUSD/USDT",
+            "TUSD/USDT",
+            "USDP/USDT"
+            
+            
+        ]
+    },
+    "pairlists": [
+      
+        {
+            "method": "VolumePairList",
+            "number_assets": 30,
+            "sort_key": "quoteVolume",
+            "refresh_period": 1800
+ 
+         },
+ 
+         {"method": "AgeFilter", "min_days_listed": 120}
+
+
+    ],
+    "telegram": {
+        "enabled": true,
+        "token": "6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo",
+        "chat_id": "-912159682"
+    },
+    "api_server": {
+        "enabled": false,
+        "listen_ip_address": "0.0.0.0",
+        "listen_port": 8080,
+        "verbosity": "error",
+        "enable_openapi": false,
+        "jwt_secret_key": "acb8c0455d213e2bd3d44f318307351c44c6f6644b630105d44fb30a33f5c507",
+        "ws_token": "ywRIkOwP0dm8-lvBivuP5Vf8aBwqi7E3Ng",
+        "CORS_origins": [],
+        "username": "freqtrader",
+        "password": "Copa2018!"
+    },
+    "bot_name": "freqtrade",
+    "initial_state": "running",
+    "force_entry_enable": false,
+    "internals": {
+        "process_throttle_secs": 5
+    }
+}

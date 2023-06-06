@@ -1,0 +1,604 @@
+2023-06-06 14:52:26,749 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-06-06 14:52:26,761 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-06-06 14:52:26,770 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-06-06 14:52:26,781 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-06-06 14:52:26,791 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3Reinforced.sqlite"
+2023-06-06 14:52:26,803 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-06-06 14:52:27,363 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-06-06 14:52:27,371 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-06-06 14:52:27,374 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-06-06 14:52:27,386 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-06-06 14:52:27,388 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-06-06 14:52:27,744 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy ReinforcedSmoothScalp from '/freqtrade/user_data/strategies/reinforcedsmoothscalp.py'...
+2023-06-06 14:52:27,749 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-06-06 14:52:27,752 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-06-06 14:52:27,754 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-06-06 14:52:27,757 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-06-06 14:52:27,759 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-06-06 14:52:27,761 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.509, '215': 0.227, '640': 0.072, '1676': 0}
+2023-06-06 14:52:27,763 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1h
+2023-06-06 14:52:27,766 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.299
+2023-06-06 14:52:27,768 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-06-06 14:52:27,770 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-06-06 14:52:27,772 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-06-06 14:52:27,774 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-06-06 14:52:27,776 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-06-06 14:52:27,778 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2023-06-06 14:52:27,780 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-06-06 14:52:27,782 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-06-06 14:52:27,784 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-06-06 14:52:27,786 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-06-06 14:52:27,788 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2023-06-06 14:52:27,789 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-06-06 14:52:27,791 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-06-06 14:52:27,793 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-06-06 14:52:27,794 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-06-06 14:52:27,796 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-06-06 14:52:27,797 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-06-06 14:52:27,799 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-06-06 14:52:27,801 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-06-06 14:52:27,802 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-06-06 14:52:27,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-06-06 14:52:27,806 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-06-06 14:52:27,815 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-06-06 14:52:27,818 - freqtrade.exchange.exchange - INFO - Using CCXT 3.1.5
+2023-06-06 14:52:27,846 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-06-06 14:52:35,864 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-06-06 14:52:36,864 - freqtrade.wallets - INFO - Wallets synced.
+2023-06-06 14:52:36,884 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-06-06 14:52:36,895 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist AgeFilter from '/freqtrade/freqtrade/plugins/pairlist/AgeFilter.py'...
+2023-06-06 14:52:37,267 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2023-06-06 14:52:38,507 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-06-06 14:52:38,539 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forceexit', 'forcesell', 'fx'], ['forcebuy', 'forcelong'], ['forceshort'], ['reload_trade'], ['trades'], ['delete'], ['cancel_open_order', 'coo'], ['performance'], ['buys', 'entries'], ['exits', 'sells'], ['mix_tags'], ['stats'], ['daily'], ['weekly'], ['monthly'], ['count'], ['locks'], ['delete_locks', 'unlock'], ['reload_conf', 'reload_config'], ['show_conf', 'show_config'], ['stopbuy', 'stopentry'], ['whitelist'], ['blacklist'], ['bl_delete', 'blacklist_delete'], ['logs'], ['edge'], ['health'], ['help'], ['version'], ['marketdir']]
+2023-06-06 14:52:38,568 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist AgeFilter from '/freqtrade/freqtrade/plugins/pairlist/AgeFilter.py'...
+2023-06-06 14:52:39,867 - VolumePairList - INFO - Pair TUSD/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 14:52:39,870 - VolumePairList - INFO - Pair USDC/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 14:52:39,875 - VolumePairList - INFO - Pair BUSD/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 14:52:39,884 - VolumePairList - INFO - Pair USDP/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 14:52:40,774 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getMe "HTTP/1.1 200 OK"
+2023-06-06 14:52:40,779 - telegram.ext.Application - INFO - Application started
+2023-06-06 14:52:40,960 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/deleteWebhook "HTTP/1.1 200 OK"
+2023-06-06 14:52:43,046 - AgeFilter - INFO - Removed ARB/USDT from whitelist, because age 75 is less than 120 days
+2023-06-06 14:52:43,049 - AgeFilter - INFO - Removed SUI/USDT from whitelist, because age 34 is less than 120 days
+2023-06-06 14:52:43,052 - AgeFilter - INFO - Removed PEPE/USDT from whitelist, because age 32 is less than 120 days
+2023-06-06 14:52:43,055 - AgeFilter - INFO - Removed EDU/USDT from whitelist, because age 39 is less than 120 days
+2023-06-06 14:52:43,058 - AgeFilter - INFO - Removed ID/USDT from whitelist, because age 76 is less than 120 days
+2023-06-06 14:52:43,061 - AgeFilter - INFO - Validated 25 pairs.
+2023-06-06 14:52:43,086 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 25 pairs: ['BTC/USDT', 'ETH/USDT', 'BNB/USDT', 'XRP/USDT', 'SOL/USDT', 'LTC/USDT', 'DOGE/USDT', 'RNDR/USDT', 'OP/USDT', 'MTL/USDT', 'MATIC/USDT', 'DYDX/USDT', 'SAND/USDT', 'ADA/USDT', 'CFX/USDT', 'APT/USDT', 'EUR/USDT', 'APE/USDT', 'AVAX/USDT', 'LINA/USDT', 'FIL/USDT', 'FTM/USDT', 'LINK/USDT', 'GALA/USDT', 'LDO/USDT']
+2023-06-06 14:52:43,090 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-06-06 14:52:43,093 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_adx = 48
+2023-06-06 14:52:43,095 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_adx_enabled = True
+2023-06-06 14:52:43,098 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastd = 32
+2023-06-06 14:52:43,100 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastd_enabled = False
+2023-06-06 14:52:43,102 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastk = 35
+2023-06-06 14:52:43,105 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastk_enabled = False
+2023-06-06 14:52:43,108 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_mfi = 14
+2023-06-06 14:52:43,111 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_mfi_enabled = False
+2023-06-06 14:52:43,114 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-06-06 14:52:43,117 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_adx = 76
+2023-06-06 14:52:43,120 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_adx_enabled = True
+2023-06-06 14:52:43,122 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_cci = 179
+2023-06-06 14:52:43,125 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_cci_enabled = False
+2023-06-06 14:52:43,128 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastd = 59
+2023-06-06 14:52:43,131 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastd_enabled = True
+2023-06-06 14:52:43,134 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastk = 58
+2023-06-06 14:52:43,137 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastk_enabled = True
+2023-06-06 14:52:43,139 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_mfi = 76
+2023-06-06 14:52:43,142 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_mfi_enabled = False
+2023-06-06 14:52:43,144 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-06-06 14:52:43,147 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-06-06 14:52:43,150 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-06-06 14:52:43,152 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-06-06 14:52:43,222 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-06-06 14:52:43,225 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 0.509, '215': 0.227, '640': 0.072, '1676': 0}`\n*Stoploss:* `-0.299`\n*Position adjustment:* `Off`\n*Timeframe:* `1h`\n*Strategy:* `ReinforcedSmoothScalp`"}
+2023-06-06 14:52:43,230 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 30 volume pairs.'}, {'AgeFilter': 'AgeFilter - Filtering pairs with age less than 120 days'}]"}
+2023-06-06 14:52:43,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 14:52:43,474 - freqtrade.rpc.telegram - WARNING - Telegram NetworkError: Chat not found! Trying one more time.
+2023-06-06 14:52:43,803 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 14:52:43,816 - freqtrade.rpc.telegram - WARNING - TelegramError: Chat not found! Giving up on that message.
+2023-06-06 14:52:43,925 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 14:52:43,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 14:52:43,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 14:52:43,958 - freqtrade.rpc.telegram - WARNING - Telegram NetworkError: Chat not found! Trying one more time.
+2023-06-06 14:52:43,972 - freqtrade.rpc.telegram - WARNING - Telegram NetworkError: Chat not found! Trying one more time.
+2023-06-06 14:52:43,983 - freqtrade.rpc.telegram - WARNING - Telegram NetworkError: Chat not found! Trying one more time.
+2023-06-06 14:52:44,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 14:52:44,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 14:52:44,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 14:52:44,439 - freqtrade.rpc.telegram - WARNING - TelegramError: Chat not found! Giving up on that message.
+2023-06-06 14:52:44,455 - freqtrade.rpc.telegram - WARNING - TelegramError: Chat not found! Giving up on that message.
+2023-06-06 14:52:44,585 - freqtrade.rpc.telegram - WARNING - TelegramError: Chat not found! Giving up on that message.
+2023-06-06 14:52:54,455 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 14:53:01,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:53:21,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:53:41,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:53:55,310 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 14:54:02,205 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:54:22,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:54:42,755 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:54:56,201 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 14:55:02,972 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:55:23,172 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:55:43,357 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:55:57,273 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 14:56:03,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:56:23,930 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:56:44,127 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:56:58,256 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 14:57:04,375 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:57:24,654 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:57:44,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:57:58,771 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 14:58:05,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:58:25,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:58:45,619 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:58:58,841 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 14:59:05,815 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:59:26,024 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 14:59:35,224 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-06-06 14:59:35,255 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-06-06 14:59:35,261 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-06-06 14:59:35,274 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-06-06 14:59:35,287 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-06-06 14:59:35,308 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.telegram ...
+2023-06-06 14:59:35,311 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-06-06 14:59:35,316 - telegram.ext.Application - INFO - Application.stop() complete
+2023-06-06 15:00:12,180 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-06-06 15:00:12,182 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-06-06 15:00:12,184 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-06-06 15:00:12,185 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-06-06 15:00:12,187 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3Reinforced.sqlite"
+2023-06-06 15:00:12,189 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-06-06 15:00:12,329 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-06-06 15:00:12,334 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-06-06 15:00:12,336 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-06-06 15:00:12,351 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-06-06 15:00:12,353 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-06-06 15:00:12,536 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy ReinforcedSmoothScalp from '/freqtrade/user_data/strategies/reinforcedsmoothscalp.py'...
+2023-06-06 15:00:12,540 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-06-06 15:00:12,542 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-06-06 15:00:12,544 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-06-06 15:00:12,546 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-06-06 15:00:12,548 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-06-06 15:00:12,549 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.509, '215': 0.227, '640': 0.072, '1676': 0}
+2023-06-06 15:00:12,551 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1h
+2023-06-06 15:00:12,553 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.299
+2023-06-06 15:00:12,555 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-06-06 15:00:12,557 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-06-06 15:00:12,558 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-06-06 15:00:12,560 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-06-06 15:00:12,561 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-06-06 15:00:12,563 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2023-06-06 15:00:12,565 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-06-06 15:00:12,567 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-06-06 15:00:12,568 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-06-06 15:00:12,570 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-06-06 15:00:12,571 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2023-06-06 15:00:12,573 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-06-06 15:00:12,574 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-06-06 15:00:12,576 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-06-06 15:00:12,577 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-06-06 15:00:12,578 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-06-06 15:00:12,580 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-06-06 15:00:12,581 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-06-06 15:00:12,583 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-06-06 15:00:12,584 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-06-06 15:00:12,586 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-06-06 15:00:12,588 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-06-06 15:00:12,595 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-06-06 15:00:12,597 - freqtrade.exchange.exchange - INFO - Using CCXT 3.1.5
+2023-06-06 15:00:12,618 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-06-06 15:00:22,553 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-06-06 15:00:22,702 - freqtrade.wallets - INFO - Wallets synced.
+2023-06-06 15:00:22,726 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-06-06 15:00:22,738 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist AgeFilter from '/freqtrade/freqtrade/plugins/pairlist/AgeFilter.py'...
+2023-06-06 15:00:23,133 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-06-06 15:05:50,385 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-06-06 15:05:50,388 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-06-06 15:05:50,390 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-06-06 15:05:50,392 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-06-06 15:05:50,394 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3Reinforced.sqlite"
+2023-06-06 15:05:50,397 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-06-06 15:05:50,571 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-06-06 15:05:50,577 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-06-06 15:05:50,580 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-06-06 15:05:50,595 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-06-06 15:05:50,598 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-06-06 15:05:50,757 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy ReinforcedSmoothScalp from '/freqtrade/user_data/strategies/reinforcedsmoothscalp.py'...
+2023-06-06 15:05:50,761 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-06-06 15:05:50,764 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-06-06 15:05:50,766 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-06-06 15:05:50,768 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-06-06 15:05:50,770 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-06-06 15:05:50,773 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.509, '215': 0.227, '640': 0.072, '1676': 0}
+2023-06-06 15:05:50,775 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1h
+2023-06-06 15:05:50,776 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.299
+2023-06-06 15:05:50,778 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-06-06 15:05:50,781 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-06-06 15:05:50,783 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-06-06 15:05:50,785 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-06-06 15:05:50,787 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-06-06 15:05:50,789 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2023-06-06 15:05:50,791 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-06-06 15:05:50,793 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-06-06 15:05:50,795 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-06-06 15:05:50,796 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-06-06 15:05:50,798 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2023-06-06 15:05:50,800 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-06-06 15:05:50,802 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-06-06 15:05:50,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-06-06 15:05:50,806 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-06-06 15:05:50,808 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-06-06 15:05:50,810 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-06-06 15:05:50,812 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-06-06 15:05:50,814 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-06-06 15:05:50,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-06-06 15:05:50,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-06-06 15:05:50,819 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-06-06 15:05:50,827 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-06-06 15:05:50,829 - freqtrade.exchange.exchange - INFO - Using CCXT 3.1.5
+2023-06-06 15:05:50,853 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-06-06 15:06:06,470 - freqtrade.exchange.exchange - WARNING - Could not load async markets. Reason: binance GET https://dapi.binance.com/dapi/v1/exchangeInfo
+2023-06-06 15:06:06,473 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-06-06 15:06:06,581 - freqtrade.wallets - INFO - Wallets synced.
+2023-06-06 15:06:06,591 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-06-06 15:06:06,597 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist AgeFilter from '/freqtrade/freqtrade/plugins/pairlist/AgeFilter.py'...
+2023-06-06 15:06:06,940 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2023-06-06 15:06:07,236 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-06-06 15:06:07,246 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist AgeFilter from '/freqtrade/freqtrade/plugins/pairlist/AgeFilter.py'...
+2023-06-06 15:06:07,252 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forceexit', 'forcesell', 'fx'], ['forcebuy', 'forcelong'], ['forceshort'], ['reload_trade'], ['trades'], ['delete'], ['cancel_open_order', 'coo'], ['performance'], ['buys', 'entries'], ['exits', 'sells'], ['mix_tags'], ['stats'], ['daily'], ['weekly'], ['monthly'], ['count'], ['locks'], ['delete_locks', 'unlock'], ['reload_conf', 'reload_config'], ['show_conf', 'show_config'], ['stopbuy', 'stopentry'], ['whitelist'], ['blacklist'], ['bl_delete', 'blacklist_delete'], ['logs'], ['edge'], ['health'], ['help'], ['version'], ['marketdir']]
+2023-06-06 15:06:07,985 - VolumePairList - INFO - Pair TUSD/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 15:06:07,987 - VolumePairList - INFO - Pair USDC/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 15:06:07,988 - VolumePairList - INFO - Pair BUSD/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 15:06:07,990 - VolumePairList - INFO - Pair USDP/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 15:06:08,312 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getMe "HTTP/1.1 200 OK"
+2023-06-06 15:06:08,315 - telegram.ext.Application - INFO - Application started
+2023-06-06 15:06:08,490 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/deleteWebhook "HTTP/1.1 200 OK"
+2023-06-06 15:06:12,729 - AgeFilter - INFO - Removed ARB/USDT from whitelist, because age 75 is less than 120 days
+2023-06-06 15:06:12,731 - AgeFilter - INFO - Removed SUI/USDT from whitelist, because age 34 is less than 120 days
+2023-06-06 15:06:12,733 - AgeFilter - INFO - Removed PEPE/USDT from whitelist, because age 32 is less than 120 days
+2023-06-06 15:06:12,735 - AgeFilter - INFO - Removed EDU/USDT from whitelist, because age 39 is less than 120 days
+2023-06-06 15:06:12,736 - AgeFilter - INFO - Removed ID/USDT from whitelist, because age 76 is less than 120 days
+2023-06-06 15:06:12,738 - AgeFilter - INFO - Validated 25 pairs.
+2023-06-06 15:06:12,756 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 25 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'BNB/USDT', 'SOL/USDT', 'LTC/USDT', 'DOGE/USDT', 'RNDR/USDT', 'OP/USDT', 'MATIC/USDT', 'MTL/USDT', 'DYDX/USDT', 'SAND/USDT', 'ADA/USDT', 'CFX/USDT', 'APT/USDT', 'EUR/USDT', 'APE/USDT', 'AVAX/USDT', 'LINA/USDT', 'FTM/USDT', 'FIL/USDT', 'LINK/USDT', 'LDO/USDT', 'GALA/USDT']
+2023-06-06 15:06:12,758 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-06-06 15:06:12,760 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_adx = 48
+2023-06-06 15:06:12,762 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_adx_enabled = True
+2023-06-06 15:06:12,763 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastd = 32
+2023-06-06 15:06:12,765 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastd_enabled = False
+2023-06-06 15:06:12,766 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastk = 35
+2023-06-06 15:06:12,768 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastk_enabled = False
+2023-06-06 15:06:12,769 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_mfi = 14
+2023-06-06 15:06:12,771 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_mfi_enabled = False
+2023-06-06 15:06:12,773 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-06-06 15:06:12,774 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_adx = 76
+2023-06-06 15:06:12,776 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_adx_enabled = True
+2023-06-06 15:06:12,777 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_cci = 179
+2023-06-06 15:06:12,778 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_cci_enabled = False
+2023-06-06 15:06:12,780 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastd = 59
+2023-06-06 15:06:12,782 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastd_enabled = True
+2023-06-06 15:06:12,783 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastk = 58
+2023-06-06 15:06:12,785 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastk_enabled = True
+2023-06-06 15:06:12,787 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_mfi = 76
+2023-06-06 15:06:12,789 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_mfi_enabled = False
+2023-06-06 15:06:12,791 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-06-06 15:06:12,792 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-06-06 15:06:12,794 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-06-06 15:06:12,796 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-06-06 15:06:12,816 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-06-06 15:06:12,818 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 0.509, '215': 0.227, '640': 0.072, '1676': 0}`\n*Stoploss:* `-0.299`\n*Position adjustment:* `Off`\n*Timeframe:* `1h`\n*Strategy:* `ReinforcedSmoothScalp`"}
+2023-06-06 15:06:12,822 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 30 volume pairs.'}, {'AgeFilter': 'AgeFilter - Filtering pairs with age less than 120 days'}]"}
+2023-06-06 15:06:13,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 15:06:13,096 - freqtrade.rpc.telegram - WARNING - Telegram NetworkError: Chat not found! Trying one more time.
+2023-06-06 15:06:13,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 15:06:13,401 - freqtrade.rpc.telegram - WARNING - Telegram NetworkError: Chat not found! Trying one more time.
+2023-06-06 15:06:13,404 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 15:06:13,406 - freqtrade.rpc.telegram - WARNING - Telegram NetworkError: Chat not found! Trying one more time.
+2023-06-06 15:06:13,423 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 15:06:13,426 - freqtrade.rpc.telegram - WARNING - TelegramError: Chat not found! Giving up on that message.
+2023-06-06 15:06:13,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 15:06:13,700 - freqtrade.rpc.telegram - WARNING - TelegramError: Chat not found! Giving up on that message.
+2023-06-06 15:06:13,703 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 15:06:13,705 - freqtrade.rpc.telegram - WARNING - TelegramError: Chat not found! Giving up on that message.
+2023-06-06 15:06:14,051 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 15:06:14,053 - freqtrade.rpc.telegram - WARNING - Telegram NetworkError: Chat not found! Trying one more time.
+2023-06-06 15:06:14,393 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 15:06:14,416 - freqtrade.rpc.telegram - WARNING - TelegramError: Chat not found! Giving up on that message.
+2023-06-06 15:06:20,165 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:06:29,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:06:49,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:07:09,396 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:07:20,659 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:07:29,577 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:07:46,942 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-06-06 15:07:46,947 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-06-06 15:07:46,951 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-06-06 15:07:46,953 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-06-06 15:07:46,971 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-06-06 15:07:46,976 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.telegram ...
+2023-06-06 15:07:46,980 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-06-06 15:07:46,983 - telegram.ext.Application - INFO - Application.stop() complete
+2023-06-06 15:07:47,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 400 Bad Request"
+2023-06-06 15:07:47,626 - freqtrade.rpc.telegram - WARNING - Telegram NetworkError: Chat not found! Trying one more time.
+2023-06-06 15:07:47,627 - freqtrade.rpc.telegram - WARNING - TelegramError: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')! Giving up on that message.
+2023-06-06 15:08:04,306 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-06-06 15:08:04,308 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-06-06 15:08:04,310 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-06-06 15:08:04,311 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-06-06 15:08:04,313 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3Reinforced.sqlite"
+2023-06-06 15:08:04,315 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-06-06 15:08:04,498 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-06-06 15:08:04,503 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-06-06 15:08:04,506 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-06-06 15:08:04,522 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-06-06 15:08:04,524 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-06-06 15:08:04,725 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy ReinforcedSmoothScalp from '/freqtrade/user_data/strategies/reinforcedsmoothscalp.py'...
+2023-06-06 15:08:04,729 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-06-06 15:08:04,732 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-06-06 15:08:04,734 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-06-06 15:08:04,736 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-06-06 15:08:04,738 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-06-06 15:08:04,741 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.509, '215': 0.227, '640': 0.072, '1676': 0}
+2023-06-06 15:08:04,743 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1h
+2023-06-06 15:08:04,745 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.299
+2023-06-06 15:08:04,746 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-06-06 15:08:04,749 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-06-06 15:08:04,751 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-06-06 15:08:04,753 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-06-06 15:08:04,755 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-06-06 15:08:04,757 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2023-06-06 15:08:04,759 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-06-06 15:08:04,761 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-06-06 15:08:04,763 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-06-06 15:08:04,765 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-06-06 15:08:04,767 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2023-06-06 15:08:04,769 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-06-06 15:08:04,771 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-06-06 15:08:04,774 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-06-06 15:08:04,776 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-06-06 15:08:04,778 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-06-06 15:08:04,781 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-06-06 15:08:04,785 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-06-06 15:08:04,787 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-06-06 15:08:04,790 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-06-06 15:08:04,792 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-06-06 15:08:04,795 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-06-06 15:08:04,804 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-06-06 15:08:04,806 - freqtrade.exchange.exchange - INFO - Using CCXT 3.1.5
+2023-06-06 15:08:04,832 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-06-06 15:08:12,054 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-06-06 15:08:12,182 - freqtrade.wallets - INFO - Wallets synced.
+2023-06-06 15:08:12,200 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-06-06 15:08:12,207 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist AgeFilter from '/freqtrade/freqtrade/plugins/pairlist/AgeFilter.py'...
+2023-06-06 15:08:12,535 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2023-06-06 15:08:12,770 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-06-06 15:08:12,778 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist AgeFilter from '/freqtrade/freqtrade/plugins/pairlist/AgeFilter.py'...
+2023-06-06 15:08:12,787 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forceexit', 'forcesell', 'fx'], ['forcebuy', 'forcelong'], ['forceshort'], ['reload_trade'], ['trades'], ['delete'], ['cancel_open_order', 'coo'], ['performance'], ['buys', 'entries'], ['exits', 'sells'], ['mix_tags'], ['stats'], ['daily'], ['weekly'], ['monthly'], ['count'], ['locks'], ['delete_locks', 'unlock'], ['reload_conf', 'reload_config'], ['show_conf', 'show_config'], ['stopbuy', 'stopentry'], ['whitelist'], ['blacklist'], ['bl_delete', 'blacklist_delete'], ['logs'], ['edge'], ['health'], ['help'], ['version'], ['marketdir']]
+2023-06-06 15:08:13,749 - VolumePairList - INFO - Pair TUSD/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 15:08:13,751 - VolumePairList - INFO - Pair USDC/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 15:08:13,753 - VolumePairList - INFO - Pair BUSD/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 15:08:13,757 - VolumePairList - INFO - Pair USDP/USDT in your blacklist. Removing it from whitelist...
+2023-06-06 15:08:14,056 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getMe "HTTP/1.1 200 OK"
+2023-06-06 15:08:14,060 - telegram.ext.Application - INFO - Application started
+2023-06-06 15:08:14,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/deleteWebhook "HTTP/1.1 200 OK"
+2023-06-06 15:08:16,111 - AgeFilter - INFO - Removed ARB/USDT from whitelist, because age 75 is less than 120 days
+2023-06-06 15:08:16,113 - AgeFilter - INFO - Removed SUI/USDT from whitelist, because age 34 is less than 120 days
+2023-06-06 15:08:16,114 - AgeFilter - INFO - Removed PEPE/USDT from whitelist, because age 32 is less than 120 days
+2023-06-06 15:08:16,116 - AgeFilter - INFO - Removed EDU/USDT from whitelist, because age 39 is less than 120 days
+2023-06-06 15:08:16,117 - AgeFilter - INFO - Removed ID/USDT from whitelist, because age 76 is less than 120 days
+2023-06-06 15:08:16,119 - AgeFilter - INFO - Validated 25 pairs.
+2023-06-06 15:08:16,137 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 25 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'BNB/USDT', 'SOL/USDT', 'LTC/USDT', 'DOGE/USDT', 'RNDR/USDT', 'OP/USDT', 'MATIC/USDT', 'MTL/USDT', 'DYDX/USDT', 'SAND/USDT', 'ADA/USDT', 'CFX/USDT', 'APT/USDT', 'EUR/USDT', 'APE/USDT', 'AVAX/USDT', 'LINA/USDT', 'FTM/USDT', 'FIL/USDT', 'LINK/USDT', 'LDO/USDT', 'GALA/USDT']
+2023-06-06 15:08:16,139 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-06-06 15:08:16,141 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_adx = 48
+2023-06-06 15:08:16,143 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_adx_enabled = True
+2023-06-06 15:08:16,144 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastd = 32
+2023-06-06 15:08:16,146 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastd_enabled = False
+2023-06-06 15:08:16,147 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastk = 35
+2023-06-06 15:08:16,149 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_fastk_enabled = False
+2023-06-06 15:08:16,151 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_mfi = 14
+2023-06-06 15:08:16,153 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_mfi_enabled = False
+2023-06-06 15:08:16,155 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-06-06 15:08:16,157 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_adx = 76
+2023-06-06 15:08:16,159 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_adx_enabled = True
+2023-06-06 15:08:16,161 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_cci = 179
+2023-06-06 15:08:16,163 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_cci_enabled = False
+2023-06-06 15:08:16,165 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastd = 59
+2023-06-06 15:08:16,167 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastd_enabled = True
+2023-06-06 15:08:16,169 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastk = 58
+2023-06-06 15:08:16,171 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_fastk_enabled = True
+2023-06-06 15:08:16,172 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_mfi = 76
+2023-06-06 15:08:16,174 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_mfi_enabled = False
+2023-06-06 15:08:16,176 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-06-06 15:08:16,177 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-06-06 15:08:16,179 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-06-06 15:08:16,181 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-06-06 15:08:16,200 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-06-06 15:08:16,202 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 0.509, '215': 0.227, '640': 0.072, '1676': 0}`\n*Stoploss:* `-0.299`\n*Position adjustment:* `Off`\n*Timeframe:* `1h`\n*Strategy:* `ReinforcedSmoothScalp`"}
+2023-06-06 15:08:16,206 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 30 volume pairs.'}, {'AgeFilter': 'AgeFilter - Filtering pairs with age less than 120 days'}]"}
+2023-06-06 15:08:16,618 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 200 OK"
+2023-06-06 15:08:16,937 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 200 OK"
+2023-06-06 15:08:16,966 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 200 OK"
+2023-06-06 15:08:17,145 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 200 OK"
+2023-06-06 15:08:24,258 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:08:34,778 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:08:54,958 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:09:15,143 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:09:24,288 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:09:35,331 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:09:55,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:10:03,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:10:04,269 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 200 OK"
+2023-06-06 15:10:23,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:10:24,688 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:10:31,713 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:10:32,458 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 200 OK"
+2023-06-06 15:10:51,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:10:54,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:10:55,673 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 200 OK"
+2023-06-06 15:11:15,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:11:25,108 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:11:35,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:11:55,522 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:12:15,730 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:12:26,932 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:12:29,858 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:12:30,673 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 200 OK"
+2023-06-06 15:12:50,045 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:13:10,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:13:26,969 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:13:30,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:13:50,683 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:14:10,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:14:27,259 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:14:31,104 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:14:51,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:15:11,550 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:15:27,290 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:15:31,731 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:15:51,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:16:12,095 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:16:27,326 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:16:32,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:16:52,456 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:17:12,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:17:27,366 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:17:32,823 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:17:53,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:18:13,181 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:18:27,405 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:18:33,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:18:53,545 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:19:13,731 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:19:27,444 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:19:33,911 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:19:54,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:20:14,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:20:27,472 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:20:34,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:20:54,644 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:21:14,830 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:21:27,988 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:21:35,012 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:21:55,194 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:22:15,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:22:28,015 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:22:35,560 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:22:55,739 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:23:15,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:23:28,049 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:23:36,111 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:23:56,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:24:16,473 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:24:28,084 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:24:36,654 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:24:56,836 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:25:17,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:25:28,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:25:37,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:25:57,374 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:26:17,550 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:26:28,150 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:26:37,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:26:57,900 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:27:18,070 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:27:28,258 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:27:38,242 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:27:58,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:28:18,603 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:28:28,295 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:28:38,778 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:28:58,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:29:19,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:29:28,324 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:29:39,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:29:59,516 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:30:19,758 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:30:28,363 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:30:39,944 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:31:00,176 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:31:20,394 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:31:28,404 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:31:40,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:32:00,787 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:32:20,972 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:32:28,444 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:32:41,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:33:01,320 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:33:21,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:33:28,480 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:33:41,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:34:01,837 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:34:22,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:34:28,507 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:34:42,244 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:35:02,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:35:22,594 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:35:28,542 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:35:42,777 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:36:02,990 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:36:23,162 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:36:28,877 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:36:43,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:37:03,509 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:37:23,683 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:37:28,914 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:37:43,855 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:38:04,030 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:38:15,442 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 25 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'BNB/USDT', 'SOL/USDT', 'DOGE/USDT', 'LTC/USDT', 'RNDR/USDT', 'OP/USDT', 'MATIC/USDT', 'MTL/USDT', 'DYDX/USDT', 'SAND/USDT', 'ADA/USDT', 'EUR/USDT', 'CFX/USDT', 'APT/USDT', 'APE/USDT', 'LINA/USDT', 'AVAX/USDT', 'FIL/USDT', 'FTM/USDT', 'LINK/USDT', 'TRX/USDT', 'LDO/USDT']
+2023-06-06 15:38:24,224 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:38:28,947 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:38:44,394 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:39:04,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:39:24,737 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:39:28,984 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:39:44,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:40:05,080 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:40:25,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:40:29,019 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:40:45,436 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:41:05,609 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:41:26,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:41:29,060 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:41:46,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:42:06,507 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:42:26,678 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:42:29,099 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:42:46,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:43:07,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:43:27,204 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:43:29,136 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:43:47,380 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:44:07,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:44:27,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:44:29,176 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:44:47,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:45:08,077 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:45:28,250 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:45:29,214 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:45:48,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:46:08,597 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:46:28,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:46:29,249 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:46:48,938 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:47:09,110 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:47:29,283 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:47:29,288 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:47:49,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:48:09,635 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:48:29,328 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:48:29,818 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:48:49,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:49:10,164 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:49:29,368 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-06-06 15:49:30,353 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:49:50,527 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:50:10,699 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/getUpdates "HTTP/1.1 200 OK"
+2023-06-06 15:50:26,974 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-06-06 15:50:26,976 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-06-06 15:50:26,979 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-06-06 15:50:26,981 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-06-06 15:50:26,991 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-06-06 15:50:26,993 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.telegram ...
+2023-06-06 15:50:27,003 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-06-06 15:50:27,005 - telegram.ext.Application - INFO - Application.stop() complete
+2023-06-06 15:50:27,729 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6161703560:AAFcNOSNeTSmCJt9k303J23QyBGR9j-OkiU/sendMessage "HTTP/1.1 200 OK"
