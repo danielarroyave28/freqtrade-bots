@@ -62,13 +62,9 @@
  
          },
  
-         {"method": "AgeFilter", "min_days_listed": 120},
+         {"method": "AgeFilter", "min_days_listed": 120}
 
-        {
-            "method": "PerformanceFilter",
-            "minutes": 1440,  
-            "min_profit": 0.01  
-        }
+       
          
 
 
