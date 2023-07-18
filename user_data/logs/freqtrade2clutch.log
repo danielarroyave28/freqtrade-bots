@@ -5255,3 +5255,25 @@ telegram.error.NetworkError: httpx.ReadError:
 2023-07-18 09:31:45,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
 2023-07-18 09:31:47,449 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
 2023-07-18 09:32:05,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:32:25,244 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:32:45,261 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:33:02,775 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:33:05,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:33:25,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:33:45,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:34:05,429 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:34:08,986 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:34:25,566 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:34:45,694 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:35:05,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:35:10,403 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:35:25,779 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:35:45,792 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:36:05,805 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:36:10,431 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:36:25,820 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:36:45,874 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:37:06,100 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:37:15,030 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:37:26,130 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:37:46,211 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"

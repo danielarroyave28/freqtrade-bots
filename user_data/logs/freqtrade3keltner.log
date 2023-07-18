@@ -5232,3 +5232,33 @@ telegram.error.NetworkError: Bad Gateway
 2023-07-18 09:31:36,304 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
 2023-07-18 09:31:49,190 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
 2023-07-18 09:32:09,325 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:32:29,385 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:32:41,938 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:32:49,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:33:09,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:33:29,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:33:46,921 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:33:49,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:34:09,779 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:34:29,815 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:34:49,936 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:34:52,175 - rangestabilityfilter - INFO - Removed WRX/USDT from whitelist, because rate of change over 10 days is 0.740, which is above the threshold of 0.5.
+2023-07-18 09:34:52,232 - rangestabilityfilter - INFO - Removed COMP/USDT from whitelist, because rate of change over 10 days is 0.658, which is above the threshold of 0.5.
+2023-07-18 09:34:56,566 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:35:09,959 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:35:29,983 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:35:33,966 - rangestabilityfilter - INFO - Removed SNX/USDT from whitelist, because rate of change over 10 days is 0.669, which is above the threshold of 0.5.
+2023-07-18 09:35:33,968 - rangestabilityfilter - INFO - Removed USTC/USDT from whitelist, because rate of change over 10 days is 0.821, which is above the threshold of 0.5.
+2023-07-18 09:35:33,971 - rangestabilityfilter - INFO - Removed AGLD/USDT from whitelist, because rate of change over 10 days is 0.698, which is above the threshold of 0.5.
+2023-07-18 09:35:33,972 - rangestabilityfilter - INFO - Removed XVG/USDT from whitelist, because rate of change over 10 days is 0.575, which is above the threshold of 0.5.
+2023-07-18 09:35:33,973 - rangestabilityfilter - INFO - Removed XLM/USDT from whitelist, because rate of change over 10 days is 1.075, which is above the threshold of 0.5.
+2023-07-18 09:35:33,975 - rangestabilityfilter - INFO - Removed WAVES/USDT from whitelist, because rate of change over 10 days is 0.546, which is above the threshold of 0.5.
+2023-07-18 09:35:49,998 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:35:58,392 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:36:10,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:36:30,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:36:50,153 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:36:59,778 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:37:10,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:37:30,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:37:50,896 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6259835003:AAGDfBci75nm9uZTvmhu5U7UNB30zvpbJmA/getUpdates "HTTP/1.1 200 OK"
