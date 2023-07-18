@@ -5140,3 +5140,118 @@ telegram.error.NetworkError: httpx.ReadError:
 2023-07-18 09:16:08,208 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
 2023-07-18 09:16:21,930 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
 2023-07-18 09:16:41,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:17:02,036 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:17:22,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:17:27,612 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:17:42,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:18:02,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:18:22,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:18:36,513 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:18:42,838 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:19:02,852 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:19:22,877 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:19:42,990 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:19:48,218 - PerformanceFilter - INFO - Removing pair FORTH/USDT since 0.0 is below 0.01
+2023-07-18 09:19:48,219 - PerformanceFilter - INFO - Removing pair MKR/USDT since 0.0 is below 0.01
+2023-07-18 09:19:48,640 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:20:03,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:20:23,134 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:20:43,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:20:51,854 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:21:03,181 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:21:23,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:21:43,246 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:21:55,442 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:22:03,263 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:22:23,385 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:22:43,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:22:59,876 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:23:03,489 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:23:23,554 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:23:43,681 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:24:03,760 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:24:07,226 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:24:23,870 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:24:43,953 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:25:04,004 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:25:08,360 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:25:24,134 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:25:44,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:26:04,183 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:26:08,408 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:26:24,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:26:44,296 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:27:04,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:27:20,769 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:27:24,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:27:44,471 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:28:04,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:28:24,617 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:28:26,324 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:28:44,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:29:04,747 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:29:24,814 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:29:38,438 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:29:44,887 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:30:04,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:30:22,252 - PerformanceFilter - INFO - Removing pair AAVE/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,253 - PerformanceFilter - INFO - Removing pair DOT/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,254 - PerformanceFilter - INFO - Removing pair USTC/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,254 - PerformanceFilter - INFO - Removing pair LUNC/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,254 - PerformanceFilter - INFO - Removing pair EOS/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,255 - PerformanceFilter - INFO - Removing pair TRX/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,255 - PerformanceFilter - INFO - Removing pair MASK/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,256 - PerformanceFilter - INFO - Removing pair FIL/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,256 - PerformanceFilter - INFO - Removing pair ALGO/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,257 - PerformanceFilter - INFO - Removing pair SUSHI/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,257 - PerformanceFilter - INFO - Removing pair AGLD/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,258 - PerformanceFilter - INFO - Removing pair ETC/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,258 - PerformanceFilter - INFO - Removing pair ATOM/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,259 - PerformanceFilter - INFO - Removing pair ZRX/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,259 - PerformanceFilter - INFO - Removing pair XVG/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,259 - PerformanceFilter - INFO - Removing pair XLM/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,260 - PerformanceFilter - INFO - Removing pair SAND/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,260 - PerformanceFilter - INFO - Removing pair FLOW/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,261 - PerformanceFilter - INFO - Removing pair NEAR/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,261 - PerformanceFilter - INFO - Removing pair HBAR/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,262 - PerformanceFilter - INFO - Removing pair RNDR/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,262 - PerformanceFilter - INFO - Removing pair WAVES/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,263 - PerformanceFilter - INFO - Removing pair CFX/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,263 - PerformanceFilter - INFO - Removing pair SHIB/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,264 - PerformanceFilter - INFO - Removing pair BTC/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,264 - PerformanceFilter - INFO - Removing pair ETH/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,265 - PerformanceFilter - INFO - Removing pair ADA/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,265 - PerformanceFilter - INFO - Removing pair XRP/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,266 - PerformanceFilter - INFO - Removing pair SOL/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,266 - PerformanceFilter - INFO - Removing pair BNB/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,266 - PerformanceFilter - INFO - Removing pair 1INCH/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,267 - PerformanceFilter - INFO - Removing pair LINK/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,267 - PerformanceFilter - INFO - Removing pair LTC/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,268 - PerformanceFilter - INFO - Removing pair MATIC/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,268 - PerformanceFilter - INFO - Removing pair BCH/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,269 - PerformanceFilter - INFO - Removing pair DOGE/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,269 - PerformanceFilter - INFO - Removing pair GMT/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,270 - PerformanceFilter - INFO - Removing pair GALA/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,270 - PerformanceFilter - INFO - Removing pair OP/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,270 - PerformanceFilter - INFO - Removing pair APE/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,271 - PerformanceFilter - INFO - Removing pair APT/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,271 - PerformanceFilter - INFO - Removing pair WRX/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,272 - PerformanceFilter - INFO - Removing pair LUNA/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,272 - PerformanceFilter - INFO - Removing pair UNI/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,273 - PerformanceFilter - INFO - Removing pair FTM/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,273 - PerformanceFilter - INFO - Removing pair AVAX/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,274 - PerformanceFilter - INFO - Removing pair EUR/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,274 - PerformanceFilter - INFO - Removing pair INJ/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,274 - PerformanceFilter - INFO - Removing pair SNX/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,275 - PerformanceFilter - INFO - Removing pair CELO/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,275 - PerformanceFilter - INFO - Removing pair LDO/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,276 - PerformanceFilter - INFO - Removing pair DYDX/USDT since 0.0 is below 0.01
+2023-07-18 09:30:22,290 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 1 pairs: ['COMP/USDT']
+2023-07-18 09:30:24,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:30:38,862 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:30:44,998 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:31:05,011 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:31:25,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:31:45,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
+2023-07-18 09:31:47,449 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.5', state='RUNNING'
+2023-07-18 09:32:05,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6298282206:AAF10zQKZDYBygGcJ39yjRtsy-jDdYulYYo/getUpdates "HTTP/1.1 200 OK"
